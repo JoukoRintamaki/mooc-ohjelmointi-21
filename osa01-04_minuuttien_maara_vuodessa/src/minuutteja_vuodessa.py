@@ -1,0 +1,1 @@
+print(365*24*60) # 365 päivää, 24 h, 60 minuuttia

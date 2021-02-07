@@ -1,0 +1,5 @@
+luku = int(input("Luku 1: "))
+luku += int(input("Luku 2: "))
+luku += int(input("Luku 3: "))
+luku += int(input("Luku 4: "))
+print(f"Lukujen summa on {luku} ja keskiarvo {luku/4}")
