@@ -34,8 +34,8 @@ def sudoku_oikein(sudoku: list):
             return False
         if sarake_oikein(sudoku, i) == False:
             return False
-    for i in range(0,7,3):
-        for j in range(0,7,3):
+    for i in range(0, 7, 3):
+        for j in range(0, 7, 3):
             if nelio_oikein(sudoku, i, j) == False:
                 return False
     return True
